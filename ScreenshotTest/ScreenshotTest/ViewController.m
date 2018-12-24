@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(screenShoting:) name:UIApplicationUserDidTakeScreenshotNotification object:nil];
-    /// 我的个乖乖
     
     //你还好吗
 }
